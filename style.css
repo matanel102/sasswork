@@ -1,0 +1,33 @@
+.sucsuus {
+  height: 100px;
+  width: 500px;
+  background-color: green;
+  font-size: 49px;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.bug {
+  height: 100px;
+  width: 500px;
+  background-color: red;
+  font-size: 49px;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.form {
+  height: 150px;
+  width: 150px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: beige;
+  color: black;
+  border: solid 5px firebrick;
+}
+
+.heders {
+  height: 40px;
+  width: 100px;
+  background-color: navajowhite;
+  font-size: 20px;
+}/*# sourceMappingURL=style.css.map */

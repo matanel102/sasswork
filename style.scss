@@ -1,0 +1,34 @@
+@mixin divis ($is :red){
+height: 100px;
+width: 500px;
+background-color: $is;
+font-size: 49px;
+text-align: center;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.sucsuus{
+    @include divis($is:green);
+}
+.bug{
+    @include divis();
+}
+@mixin new {
+    height: 150px;
+    width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
+    color: black;
+    border: solid 5px firebrick;
+}    
+.form {
+    @include new();
+}
+@mixin hed {
+height: 40px;
+width: 100px;
+background-color: navajowhite;
+font-size: 20px;
+}
+.heders{
+    @include hed();
+}
